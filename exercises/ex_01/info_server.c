@@ -1,3 +1,11 @@
+/**
+ * @file info_server.c
+ * @author Nguyen Huy Hoang (nhh4075@gmail.com)
+ * @brief Server that unpacks and displays directory info from client
+ * @date 2026-03-24
+ *
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -1,3 +1,11 @@
+/**
+ * @file info_client.c
+ * @author Nguyen Huy Hoang (nhh4075@gmail.com)
+ * @brief Client that packs directory info and sends to server
+ * @date 2026-03-24
+ *
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
