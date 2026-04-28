@@ -196,7 +196,7 @@ int main(int argc, char *argv[]) {
                 }
 
             } else { /* AUTHENTICATED */
-                if (strcmp(buf, "exit") == 0 || strcmp(buf, "quit") == 0) {
+                if (strcmp(buf, "exit") == 0) {
                     const char *bye = "Goodbye!\n";
                     send(clients[i].fd, bye, strlen(bye), 0);
                     printf("User '%s' logged out (fd=%d)\n",
